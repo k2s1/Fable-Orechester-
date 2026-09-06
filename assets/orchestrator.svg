@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title description">
+  <title id="title">Fable 5.1 orchestration flow</title>
+  <desc id="description">Fable 5.1 plans and adjudicates, routes implementation to GPT-5.6 Luna and DeepSeek V4 Flash, and receives verification evidence.</desc>
+
+  <rect width="1200" height="600" fill="#09111f"/>
+
+  <g fill="#122238">
+    <circle cx="44" cy="42" r="2"/>
+    <circle cx="88" cy="42" r="2"/>
+    <circle cx="132" cy="42" r="2"/>
+    <circle cx="176" cy="42" r="2"/>
+    <circle cx="220" cy="42" r="2"/>
+    <circle cx="264" cy="42" r="2"/>
+    <circle cx="308" cy="42" r="2"/>
+    <circle cx="352" cy="42" r="2"/>
+    <circle cx="396" cy="42" r="2"/>
+    <circle cx="440" cy="42" r="2"/>
+    <circle cx="484" cy="42" r="2"/>
+    <circle cx="528" cy="42" r="2"/>
+    <circle cx="572" cy="42" r="2"/>
+    <circle cx="616" cy="42" r="2"/>
+    <circle cx="660" cy="42" r="2"/>
+    <circle cx="704" cy="42" r="2"/>
+    <circle cx="748" cy="42" r="2"/>
+    <circle cx="792" cy="42" r="2"/>
+    <circle cx="836" cy="42" r="2"/>
+    <circle cx="880" cy="42" r="2"/>
+    <circle cx="924" cy="42" r="2"/>
+    <circle cx="968" cy="42" r="2"/>
+    <circle cx="1012" cy="42" r="2"/>
+    <circle cx="1056" cy="42" r="2"/>
+    <circle cx="1100" cy="42" r="2"/>
+    <circle cx="1144" cy="42" r="2"/>
+    <circle cx="1188" cy="42" r="2"/>
+  </g>
+  <g fill="#102037">
+    <rect x="42" y="82" width="1116" height="1"/>
+    <rect x="42" y="520" width="1116" height="1"/>
+    <rect x="42" y="560" width="1116" height="1"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="61" fill="#56e2c1" font-size="13" font-weight="700" letter-spacing="2.6">LOCAL-FIRST / CODEX ROUTER</text>
+    <text x="54" y="112" fill="#f2f7ff" font-size="29" font-weight="700" letter-spacing="1.2">PLAN  →  EXECUTE  →  VERIFY</text>
+    <text x="55" y="139" fill="#91a8bf" font-size="14" letter-spacing="0.5">A bounded task graph with one clear owner at every edge.</text>
+  </g>
+
+  <!-- Objective ingress -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path d="M54 256H147L167 276V322L147 342H54Z" fill="#101e31" stroke="#294763" stroke-width="2"/>
+    <text x="74" y="285" fill="#89a3bb" font-size="11" font-weight="700" letter-spacing="1.8">INPUT</text>
+    <text x="74" y="311" fill="#f2f7ff" font-size="17" font-weight="700">objective</text>
+    <path d="M167 299H265" fill="none" stroke="#294763" stroke-width="2"/>
+    <path d="M265 299L253 292V306Z" fill="#56e2c1"/>
+    <circle cx="178" cy="299" r="4" fill="#56e2c1"/>
+  </g>
+
+  <!-- Fable planning core -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <polygon points="307,197 347,167 653,167 693,197 693,382 653,412 347,412 307,382" fill="#10253a" stroke="#56e2c1" stroke-width="3"/>
+    <polygon points="329,213 363,187 637,187 671,213 671,366 637,392 363,392 329,366" fill="#0b1728" stroke="#254b63" stroke-width="2"/>
+    <path d="M363 187V161M637 187V161M363 392V418M637 392V418" fill="none" stroke="#56e2c1" stroke-width="2"/>
+    <path d="M292 236H329M292 343H329M671 236H708M671 343H708" fill="none" stroke="#56e2c1" stroke-width="2"/>
+    <circle cx="292" cy="236" r="4" fill="#56e2c1"/>
+    <circle cx="292" cy="343" r="4" fill="#56e2c1"/>
+    <circle cx="708" cy="236" r="4" fill="#56e2c1"/>
+    <circle cx="708" cy="343" r="4" fill="#56e2c1"/>
+    <path d="M389 243H611M389 286H611M389 329H611" fill="none" stroke="#1c3852" stroke-width="2"/>
+    <path d="M389 243H454M389 286H506M389 329H473" fill="none" stroke="#56e2c1" stroke-width="3"/>
+    <text x="390" y="225" fill="#56e2c1" font-size="12" font-weight="700" letter-spacing="2.4">ORCHESTRATOR / 01</text>
+    <text x="390" y="275" fill="#f2f7ff" font-size="29" font-weight="700" letter-spacing="1.4">FABLE 5.1</text>
+    <text x="390" y="306" fill="#adc0d2" font-size="15">plan · route · adjudicate</text>
+    <rect x="390" y="349" width="86" height="24" fill="#163b42"/>
+    <text x="403" y="366" fill="#7df1d0" font-size="11" font-weight="700" letter-spacing="1.2">DECIDE</text>
+    <rect x="486" y="349" width="86" height="24" fill="#172d4b"/>
+    <text x="499" y="366" fill="#8fc6ff" font-size="11" font-weight="700" letter-spacing="1.2">DELEGATE</text>
+    <rect x="582" y="349" width="86" height="24" fill="#202b43"/>
+    <text x="599" y="366" fill="#bdcbe0" font-size="11" font-weight="700" letter-spacing="1.2">REVIEW</text>
+  </g>
+
+  <!-- Route from Fable to workers -->
+  <g fill="none" stroke-width="3">
+    <path d="M708 236H758V194H806" stroke="#8fc6ff"/>
+    <path d="M708 343H758V401H806" stroke="#56e2c1"/>
+  </g>
+  <g>
+    <path d="M806 194L794 187V201Z" fill="#8fc6ff"/>
+    <path d="M806 401L794 394V408Z" fill="#56e2c1"/>
+    <circle cx="758" cy="194" r="4" fill="#8fc6ff"/>
+    <circle cx="758" cy="401" r="4" fill="#56e2c1"/>
+  </g>
+
+  <!-- Luna worker -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <polygon points="806,137 831,113 1136,113 1160,137 1160,253 1136,277 831,277 806,253" fill="#102239" stroke="#5b9ee5" stroke-width="2"/>
+    <rect x="833" y="138" width="9" height="113" fill="#5b9ee5"/>
+    <circle cx="868" cy="151" r="6" fill="#8fc6ff"/>
+    <text x="889" y="156" fill="#8fc6ff" font-size="11" font-weight="700" letter-spacing="2">WORKER / 02</text>
+    <text x="868" y="202" fill="#f2f7ff" font-size="23" font-weight="700" letter-spacing="1">GPT-5.6 LUNA</text>
+    <text x="868" y="229" fill="#a7bdd3" font-size="14">normal implementation</text>
+    <rect x="1014" y="224" width="108" height="25" fill="#173458"/>
+    <text x="1033" y="241" fill="#9dccff" font-size="11" font-weight="700" letter-spacing="1">IMPLEMENT</text>
+    <path d="M806 194H788" fill="none" stroke="#8fc6ff" stroke-width="3"/>
+    <circle cx="806" cy="194" r="5" fill="#8fc6ff"/>
+  </g>
+
+  <!-- DeepSeek worker -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <polygon points="806,344 831,320 1136,320 1160,344 1160,460 1136,484 831,484 806,460" fill="#102b2d" stroke="#56e2c1" stroke-width="2"/>
+    <rect x="833" y="345" width="9" height="113" fill="#56e2c1"/>
+    <circle cx="868" cy="358" r="6" fill="#56e2c1"/>
+    <text x="889" y="363" fill="#7df1d0" font-size="11" font-weight="700" letter-spacing="2">WORKER / 03</text>
+    <text x="868" y="409" fill="#f2f7ff" font-size="21" font-weight="700" letter-spacing="0.8">DEEPSEEK V4 FLASH</text>
+    <text x="868" y="436" fill="#a7c9c7" font-size="14">loops · repeated work · throughput</text>
+    <rect x="1014" y="447" width="108" height="25" fill="#18504e"/>
+    <text x="1037" y="464" fill="#8af3d2" font-size="11" font-weight="700" letter-spacing="1">ITERATE</text>
+    <path d="M806 401H788" fill="none" stroke="#56e2c1" stroke-width="3"/>
+    <circle cx="806" cy="401" r="5" fill="#56e2c1"/>
+  </g>
+
+  <!-- Verification return bus -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path d="M1160 194H1178V515H758V466H637" fill="none" stroke="#d7a95b" stroke-width="3"/>
+    <path d="M637 466L649 459V473Z" fill="#d7a95b"/>
+    <circle cx="1178" cy="194" r="5" fill="#d7a95b"/>
+    <circle cx="1178" cy="401" r="5" fill="#d7a95b"/>
+    <rect x="777" y="489" width="198" height="26" fill="#342d22" stroke="#8b6d3f" stroke-width="1"/>
+    <text x="796" y="507" fill="#f1c77b" font-size="11" font-weight="700" letter-spacing="1.4">VERIFICATION RETURN</text>
+    <rect x="987" y="489" width="61" height="26" fill="#2c2a24"/>
+    <text x="1004" y="507" fill="#d7c28e" font-size="11" font-weight="700">TESTS</text>
+    <rect x="1058" y="489" width="61" height="26" fill="#2c2a24"/>
+    <text x="1071" y="507" fill="#d7c28e" font-size="11" font-weight="700">PROOF</text>
+  </g>
+
+  <!-- Footer legend -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="57" cy="550" r="5" fill="#56e2c1"/>
+    <text x="72" y="555" fill="#9bb0c3" font-size="12" letter-spacing="0.8">FABLE DECIDES</text>
+    <circle cx="218" cy="550" r="5" fill="#8fc6ff"/>
+    <text x="233" y="555" fill="#9bb0c3" font-size="12" letter-spacing="0.8">LUNA BUILDS</text>
+    <circle cx="360" cy="550" r="5" fill="#56e2c1"/>
+    <text x="375" y="555" fill="#9bb0c3" font-size="12" letter-spacing="0.8">DEEPSEEK LOOPS</text>
+    <circle cx="547" cy="550" r="5" fill="#d7a95b"/>
+    <text x="562" y="555" fill="#9bb0c3" font-size="12" letter-spacing="0.8">EVIDENCE RETURNS</text>
+    <text x="1148" y="555" text-anchor="end" fill="#526d84" font-size="11" letter-spacing="1.2">OPEN CODE GO COMPATIBLE</text>
+  </g>
+</svg>

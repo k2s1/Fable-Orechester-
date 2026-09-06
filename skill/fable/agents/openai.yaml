@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fable Orchestrator"
+  short_description: "Plan with Claude Fable, execute with Codex agents"
+  default_prompt: "Use $fable to orchestrate this task with the best available sub-agent models."
